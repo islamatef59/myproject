@@ -4,4 +4,5 @@ SELECT weather_conditions,
 	   AVG(CAST(active_minutes AS BIGINT)) AS active_minutes 
 	   FROM fitness_tracker_dataset
 	   GROUP BY weather_conditions
-select * from weather_conditions
+select * from fitness_tracker_dataset
+select weather_conditions from fitness_tracker_dataset
